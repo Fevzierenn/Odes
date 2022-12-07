@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">firebasedeneme</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <string name="mail">mailinizi girin:</string>
+    <string name="k_adi">kullanıcı adını girin:</string>
+    <string name="sifre">  Şifrenizi giriniz:</string>
+    <string name="uyedegilmisiniz">üye degil misin?</string>
+    <string name="buton4">4.Btn</string>
+    <string name="aramakutusu">Kullanıcı adını giriniz:</string>
+</resources>

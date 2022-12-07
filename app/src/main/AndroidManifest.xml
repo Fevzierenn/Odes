@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firebasedeneme"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".GirisSayfasi"
+            android:exported="true"
+            android:label="Ödeş-Giriş Penceresi"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".KayitSayfasi"
+            android:label="Ödeş-Kayıt Penceresi"/>
+        <activity android:name=".ProgramMerhabaSayfasi"
+            android:label="Ödeş"
+            />
+        <activity android:name=".Aramabutonuici" />
+        <activity android:name=".ArkadaslıkIstegiAtmaPenceresi"
+            android:label="Arkadaş Ekle"/>
+        <activity android:name=".Arkadaslarim"
+            android:label="Arkadaşlarım"/>
+        <activity android:name=".GrupOlusturmaSayfası"
+            android:label="Grup Oluştur"/>
+        <activity android:name=".GrubaKullanıcıEklemeSayfası"
+            android:label="Kullanıcı Ekle"/>
+
+        <activity android:name=".GrubaEkleme" />
+        <activity android:name=".Grubunİcerisi" />
+        <activity android:name=".Dovizler" />
+        <activity android:name=".DovizDegerleriniAlma" />
+        <activity android:name=".GiderEkleme" />
+        <activity android:name=".Dovizsayfasibir" />
+        <activity android:name=".Admin" />
+        <activity android:name=".AdminGrupSil" />
+        <activity android:name=".AdminGelenGrubuSilmefinal" />
+        <activity android:name=".AdminKullaniciSil" />
+        <activity android:name=".AdminKullaniciSilSon" />
+        <activity android:name=".AyarlarActivity" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ChangeEmail" />
+        <activity
+            android:name=".GroupListActivity"
+            android:label="Gruplarım"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+    </application>
+
+</manifest>
